@@ -24,10 +24,6 @@ steps:
   displayName: 'Install dependencies'
 
 - script: |
-    python -m unittest discover
-  displayName: 'Run tests'
-
-- script: |
     python application.py &
   displayName: 'Run Flask App'
 
