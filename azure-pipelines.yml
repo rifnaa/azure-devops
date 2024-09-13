@@ -21,9 +21,8 @@ steps:
     python -m venv env
     source env/bin/activate
     pip install -r requirements.txt
+    python application.py &
   displayName: 'Install dependencies'
 
-- script: |
-    python application.py &
-  displayName: 'Run Flask App'
+
 
