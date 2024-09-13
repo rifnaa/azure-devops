@@ -25,6 +25,6 @@ steps:
   displayName: 'Install dependencies'
 
 - script: |
-    python3 application.py &
+    python application.py &
   displayName: 'Run Flask App'
 
